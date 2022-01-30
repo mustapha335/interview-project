@@ -1,0 +1,28 @@
+.info {
+  height: 250px;
+  width: 90%;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  backdrop-filter: blur(5px);
+  color: black;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  margin-left: 20px;
+  align-items: flex-start;
+}
+.info_desc {
+  color: white;
+  font-size: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.hr {
+  margin: 10px 0px;
+}
